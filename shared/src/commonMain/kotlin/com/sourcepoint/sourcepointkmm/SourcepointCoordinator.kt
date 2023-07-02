@@ -11,7 +11,7 @@ class SourcepointCoordinator(platform: Platform) {
         val metaDataResponse = spClient.getMetaData()
         val message = """
             The return of /meta-data is:
-            ${spClient.getMetaData()}
+            $metaDataResponse
             
             The cached version of /meta-data is:
             ${repository.cachedMetaData}
