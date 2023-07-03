@@ -1,25 +1,25 @@
 {
-  "name": "shared",
-  "version": "1.0",
-  "homepage": "Link to the Shared Module homepage",
+  "name": "POCSourcepointClient",
+  "version": "0.0.1",
+  "homepage": "https://github.com/andresilveirah/POCSourcepointclientKMM",
   "source": {
     "http": ""
   },
-  "authors": "",
+  "authors": "Kotlin Dev",
   "license": "",
-  "summary": "Some description for the Shared Module",
-  "vendored_frameworks": "build/cocoapods/framework/shared.framework",
+  "summary": "A proof of concept client for sourcepoint APIs using Kotlin Multiplatform",
+  "vendored_frameworks": "build/cocoapods/framework/POCSourcepointClient.framework",
   "libraries": "c++",
   "platforms": {
     "ios": "11.0"
   },
   "pod_target_xcconfig": {
     "KOTLIN_PROJECT_PATH": ":shared",
-    "PRODUCT_MODULE_NAME": "shared"
+    "PRODUCT_MODULE_NAME": "POCSourcepointClient"
   },
   "script_phases": [
     {
-      "name": "Build shared",
+      "name": "Build POCSourcepointClient",
       "execution_position": "before_compile",
       "shell_path": "/bin/sh",
       "script": "                if [ \"YES\" = \"$OVERRIDE_KOTLIN_BUILD_IDE_SUPPORTED\" ]; then\n                  echo \"Skipping Gradle build task invocation due to OVERRIDE_KOTLIN_BUILD_IDE_SUPPORTED environment variable set to \"YES\"\"\n                  exit 0\n                fi\n                set -ev\n                REPO_ROOT=\"$PODS_TARGET_SRCROOT\"\n                \"$REPO_ROOT/../gradlew\" -p \"$REPO_ROOT\" $KOTLIN_PROJECT_PATH:syncFramework                     -Pkotlin.native.cocoapods.platform=$PLATFORM_NAME                     -Pkotlin.native.cocoapods.archs=\"$ARCHS\"                     -Pkotlin.native.cocoapods.configuration=\"$CONFIGURATION\"\n"

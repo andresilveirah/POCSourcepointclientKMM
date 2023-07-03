@@ -1,16 +1,16 @@
 PODS:
-  - shared (1.0)
+  - POCSourcepointClient (0.0.1)
 
 DEPENDENCIES:
-  - shared (from `../shared`)
+  - POCSourcepointClient (from `../shared`)
 
 EXTERNAL SOURCES:
-  shared:
+  POCSourcepointClient:
     :path: "../shared"
 
 SPEC CHECKSUMS:
-  shared: b86dfbc108556f2fee0d8dca3f08c9e6161a4b3c
+  POCSourcepointClient: 0ab6606a967f12f3b75db176db90040f8b5f3c14
 
-PODFILE CHECKSUM: f282da88f39e69507b0a255187c8a6b644477756
+PODFILE CHECKSUM: 9d499b1c60ff27d23c88b97796756516c4ba4c97
 
 COCOAPODS: 1.12.0

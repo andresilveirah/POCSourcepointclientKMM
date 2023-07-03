@@ -1,19 +1,19 @@
 Pod::Spec.new do |spec|
     spec.name                     = 'shared'
-    spec.version                  = '1.0'
-    spec.homepage                 = 'Link to the Shared Module homepage'
+    spec.version                  = '0.0.1'
+    spec.homepage                 = 'https://github.com/andresilveirah/POCSourcepointclientKMM'
     spec.source                   = { :http=> ''}
-    spec.authors                  = ''
+    spec.authors                  = 'Kotlin Dev'
     spec.license                  = ''
-    spec.summary                  = 'Some description for the Shared Module'
-    spec.vendored_frameworks      = 'build/cocoapods/framework/shared.framework'
+    spec.summary                  = 'A proof of concept client for sourcepoint APIs using Kotlin Multiplatform'
+    spec.vendored_frameworks      = 'build/cocoapods/framework/POCSourcepointClient.framework'
     spec.libraries                = 'c++'
     spec.ios.deployment_target = '11.0'
                 
                 
     spec.pod_target_xcconfig = {
         'KOTLIN_PROJECT_PATH' => ':shared',
-        'PRODUCT_MODULE_NAME' => 'shared',
+        'PRODUCT_MODULE_NAME' => 'POCSourcepointClient',
     }
                 
     spec.script_phases = [
