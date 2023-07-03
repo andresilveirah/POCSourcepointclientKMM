@@ -9,10 +9,9 @@
 /* Begin PBXAggregateTarget section */
 		E4E8833B49A4226F826F235A82DE8FEA /* POCSourcepointClient */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = D9B8BD982AFB71865098190007F50CD9 /* Build configuration list for PBXAggregateTarget "POCSourcepointClient" */;
+			buildConfigurationList = 7B2BF39EDC81FDF5931FBB4D85A864EC /* Build configuration list for PBXAggregateTarget "POCSourcepointClient" */;
 			buildPhases = (
-				7944A6728EC379080C0629F10ACE979F /* [CP-User] Build POCSourcepointClient */,
-				F82A9A24EBD5B93A2AB5658D2562205F /* [CP] Copy dSYMs */,
+				B7F02D852C88C2C79B73659472B616E4 /* [CP-User] Build POCSourcepointClient */,
 			);
 			dependencies = (
 			);
@@ -38,9 +37,7 @@
 
 /* Begin PBXFileReference section */
 		0187F135D5F61750CD24C3E04B6E8B64 /* Pods-iosApp-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-iosApp-frameworks.sh"; sourceTree = "<group>"; };
-		05CF615BB3F85AA33BD2020EDC92B442 /* POCSourcepointClient-copy-dsyms.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "POCSourcepointClient-copy-dsyms.sh"; sourceTree = "<group>"; };
 		3F64BADB16C311E9D09DAD0116F684F4 /* Pods-iosApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iosApp.debug.xcconfig"; sourceTree = "<group>"; };
-		4A52901CC5205D8BC735755D83E48A61 /* POCSourcepointClient.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = POCSourcepointClient.debug.xcconfig; sourceTree = "<group>"; };
 		54DC7F9924F99FEE67A9AD3BEE09A10C /* Pods-iosApp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-iosApp-dummy.m"; sourceTree = "<group>"; };
 		5AC974169B09D4545F741E9A2147610E /* Pods-iosApp-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-iosApp-Info.plist"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
@@ -50,9 +47,10 @@
 		9F1FFC8B10F4D7D4F37606E8959B3F29 /* Pods-iosApp-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-iosApp-acknowledgements.markdown"; sourceTree = "<group>"; };
 		9FECCB5AFF87D121F15BA01E683C7932 /* Pods-iosApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iosApp.release.xcconfig"; sourceTree = "<group>"; };
 		B097DD7534E741D5C41838011D755842 /* Pods-iosApp */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-iosApp"; path = Pods_iosApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C5F865405353B98E278075E13B0E9652 /* POCSourcepointClient.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = POCSourcepointClient.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		DD146462666983992C5561F0E2BE89DD /* POCSourcepointClient.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = POCSourcepointClient.framework; path = build/cocoapods/framework/POCSourcepointClient.framework; sourceTree = "<group>"; };
-		F7D0B715424F89D2CFC111B38D247F13 /* POCSourcepointClient.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = POCSourcepointClient.release.xcconfig; sourceTree = "<group>"; };
+		BF5B7B3996A852A94E4834AFB3EA5746 /* POCSourcepointClient.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = POCSourcepointClient.release.xcconfig; sourceTree = "<group>"; };
+		CCA01513CDEE76DF96E3B53A34B95023 /* POCSourcepointClient.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = POCSourcepointClient.debug.xcconfig; sourceTree = "<group>"; };
+		EBA54D763FDB42D760354EC14376E1C1 /* POCSourcepointClient.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = POCSourcepointClient.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		F660F4779C4B659CA8EC6B09C262451F /* POCSourcepointClient.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = POCSourcepointClient.framework; path = build/cocoapods/framework/POCSourcepointClient.framework; sourceTree = "<group>"; };
 		F87A626222A8D9B26448A9FEB04FD0DF /* Pods-iosApp-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-iosApp-umbrella.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -84,6 +82,14 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		3361AFC4C76572D37354E95D3C0797DF /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				EBA54D763FDB42D760354EC14376E1C1 /* POCSourcepointClient.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
 		52A898E555C2DBD7D25A7E44754C3FC6 /* Pods-iosApp */ = {
 			isa = PBXGroup;
 			children = (
@@ -109,31 +115,31 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		794F87C0D3F82FD58EBB8E7022847FE6 /* POCSourcepointClient */ = {
+		59111F759563E18259F11CE823C45AF1 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				DEBA96E2A6FFF02BC29B7A19514A7A2B /* Frameworks */,
-				94493AD40F8EE884F22DD2E16BDE9F90 /* Pod */,
-				F4B9F77DADFF3667ABAD3B13B390845F /* Support Files */,
+				F660F4779C4B659CA8EC6B09C262451F /* POCSourcepointClient.framework */,
 			);
-			name = POCSourcepointClient;
-			path = ../../shared;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		833406CB15A2DB852BB310F45C7780D9 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				794F87C0D3F82FD58EBB8E7022847FE6 /* POCSourcepointClient */,
+				C6872CDA051A6988B03214426B8A9070 /* POCSourcepointClient */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		94493AD40F8EE884F22DD2E16BDE9F90 /* Pod */ = {
+		C6872CDA051A6988B03214426B8A9070 /* POCSourcepointClient */ = {
 			isa = PBXGroup;
 			children = (
-				C5F865405353B98E278075E13B0E9652 /* POCSourcepointClient.podspec */,
+				59111F759563E18259F11CE823C45AF1 /* Frameworks */,
+				3361AFC4C76572D37354E95D3C0797DF /* Pod */,
+				ECEFE5928E56BD2CA05E5DBD40C63D81 /* Support Files */,
 			);
-			name = Pod;
+			name = POCSourcepointClient;
+			path = ../../shared;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -155,20 +161,11 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		DEBA96E2A6FFF02BC29B7A19514A7A2B /* Frameworks */ = {
+		ECEFE5928E56BD2CA05E5DBD40C63D81 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				DD146462666983992C5561F0E2BE89DD /* POCSourcepointClient.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		F4B9F77DADFF3667ABAD3B13B390845F /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				05CF615BB3F85AA33BD2020EDC92B442 /* POCSourcepointClient-copy-dsyms.sh */,
-				4A52901CC5205D8BC735755D83E48A61 /* POCSourcepointClient.debug.xcconfig */,
-				F7D0B715424F89D2CFC111B38D247F13 /* POCSourcepointClient.release.xcconfig */,
+				CCA01513CDEE76DF96E3B53A34B95023 /* POCSourcepointClient.debug.xcconfig */,
+				BF5B7B3996A852A94E4834AFB3EA5746 /* POCSourcepointClient.release.xcconfig */,
 			);
 			name = "Support Files";
 			path = "../iosApp/Pods/Target Support Files/POCSourcepointClient";
@@ -246,7 +243,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		7944A6728EC379080C0629F10ACE979F /* [CP-User] Build POCSourcepointClient */ = {
+		B7F02D852C88C2C79B73659472B616E4 /* [CP-User] Build POCSourcepointClient */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -255,23 +252,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "                if [ \"YES\" = \"$OVERRIDE_KOTLIN_BUILD_IDE_SUPPORTED\" ]; then\n                  echo \"Skipping Gradle build task invocation due to OVERRIDE_KOTLIN_BUILD_IDE_SUPPORTED environment variable set to \"YES\"\"\n                  exit 0\n                fi\n                set -ev\n                REPO_ROOT=\"$PODS_TARGET_SRCROOT\"\n                \"$REPO_ROOT/../gradlew\" -p \"$REPO_ROOT\" $KOTLIN_PROJECT_PATH:syncFramework                     -Pkotlin.native.cocoapods.platform=$PLATFORM_NAME                     -Pkotlin.native.cocoapods.archs=\"$ARCHS\"                     -Pkotlin.native.cocoapods.configuration=\"$CONFIGURATION\"\n";
-		};
-		F82A9A24EBD5B93A2AB5658D2562205F /* [CP] Copy dSYMs */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/POCSourcepointClient/POCSourcepointClient-copy-dsyms-input-files.xcfilelist",
-			);
-			name = "[CP] Copy dSYMs";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/POCSourcepointClient/POCSourcepointClient-copy-dsyms-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/POCSourcepointClient/POCSourcepointClient-copy-dsyms.sh\"\n";
-			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -296,9 +276,9 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		3C4F6EC01D6420A59A0419336C1F1249 /* Release */ = {
+		2F65D85C3D98E59A1CDE347B99F12310 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F7D0B715424F89D2CFC111B38D247F13 /* POCSourcepointClient.release.xcconfig */;
+			baseConfigurationReference = CCA01513CDEE76DF96E3B53A34B95023 /* POCSourcepointClient.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -310,9 +290,8 @@
 				);
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 			};
-			name = Release;
+			name = Debug;
 		};
 		593F10BFFA94DAC7D6E17FB8A7F32D72 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -373,6 +352,24 @@
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		6FD4052DD38B8353AC08306FBAD512A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF5B7B3996A852A94E4834AFB3EA5746 /* POCSourcepointClient.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
@@ -439,23 +436,6 @@
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Debug;
-		};
-		B0465F3FA8094913C0C5670D0E79E0D0 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4A52901CC5205D8BC735755D83E48A61 /* POCSourcepointClient.debug.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -555,11 +535,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D9B8BD982AFB71865098190007F50CD9 /* Build configuration list for PBXAggregateTarget "POCSourcepointClient" */ = {
+		7B2BF39EDC81FDF5931FBB4D85A864EC /* Build configuration list for PBXAggregateTarget "POCSourcepointClient" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B0465F3FA8094913C0C5670D0E79E0D0 /* Debug */,
-				3C4F6EC01D6420A59A0419336C1F1249 /* Release */,
+				2F65D85C3D98E59A1CDE347B99F12310 /* Debug */,
+				6FD4052DD38B8353AC08306FBAD512A5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

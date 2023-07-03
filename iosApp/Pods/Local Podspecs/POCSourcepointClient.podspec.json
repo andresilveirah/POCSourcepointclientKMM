@@ -5,7 +5,9 @@
   "source": {
     "http": ""
   },
-  "authors": "Kotlin Dev",
+  "authors": {
+    "Andre Herculano": "andresilveirah@gmail.com"
+  },
   "license": "",
   "summary": "A proof of concept client for sourcepoint APIs using Kotlin Multiplatform",
   "vendored_frameworks": "build/cocoapods/framework/POCSourcepointClient.framework",

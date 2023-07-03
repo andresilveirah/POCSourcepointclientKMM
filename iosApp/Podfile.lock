@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../shared"
 
 SPEC CHECKSUMS:
-  POCSourcepointClient: 0ab6606a967f12f3b75db176db90040f8b5f3c14
+  POCSourcepointClient: 057a7fe4cb0b3583a456eeab13be18cfa54d4226
 
 PODFILE CHECKSUM: 9d499b1c60ff27d23c88b97796756516c4ba4c97
 

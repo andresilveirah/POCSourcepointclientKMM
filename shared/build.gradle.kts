@@ -21,13 +21,17 @@ kotlin {
     iosSimulatorArm64()
 
     cocoapods {
-        summary = "Some description for the Shared Module"
-        homepage = "Link to the Shared Module homepage"
-        version = "1.0"
+        summary = "A proof of concept client for sourcepoint APIs using Kotlin Multiplatform"
+        homepage = "https://github.com/andresilveirah/POCSourcepointclientKMM"
+        source = "{ 'http' => 'https://github.com/andresilveirah/POCSourcepointclientKMM' }"
+        authors = "{ 'Andre Herculano' => 'andresilveirah@gmail.com' }"
+        version = "0.0.1"
         ios.deploymentTarget = "11.0"
         podfile = project.file("../iosApp/Podfile")
+        name = "POCSourcepointClient"
         framework {
-            baseName = "shared"
+            baseName = "POCSourcepointClient"
+            transitiveExport = true
         }
     }
     

@@ -1,9 +1,9 @@
 Pod::Spec.new do |spec|
-    spec.name                     = 'shared'
+    spec.name                     = 'POCSourcepointClient'
     spec.version                  = '0.0.1'
     spec.homepage                 = 'https://github.com/andresilveirah/POCSourcepointclientKMM'
-    spec.source                   = { :http=> ''}
-    spec.authors                  = 'Kotlin Dev'
+    spec.source                   = { :http => 'https://github.com/andresilveirah/POCSourcepointclientKMM' }
+    spec.authors                  = { 'Andre Herculano' => 'andresilveirah@gmail.com' }
     spec.license                  = ''
     spec.summary                  = 'A proof of concept client for sourcepoint APIs using Kotlin Multiplatform'
     spec.vendored_frameworks      = 'build/cocoapods/framework/POCSourcepointClient.framework'
@@ -18,7 +18,7 @@ Pod::Spec.new do |spec|
                 
     spec.script_phases = [
         {
-            :name => 'Build shared',
+            :name => 'Build POCSourcepointClient',
             :execution_position => :before_compile,
             :shell_path => '/bin/sh',
             :script => <<-SCRIPT
